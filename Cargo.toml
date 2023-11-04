@@ -10,5 +10,14 @@ readme = "README.md"
 categories = ["text-processing"]
 keywords = ["filename", "normalize"]
 
+
+[lib]
+name = "filenamify"
+path = "src/lib.rs"
+
+[[bin]]
+name = "filenamify"
+path = "src/bin.rs"
+
 [dependencies]
 regex = "1.5"
